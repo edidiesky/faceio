@@ -1,7 +1,6 @@
 import "./globals.css";
 import { Montserrat } from "next/font/google";
 import ToasterProvider from "./providers/ToasterProvider";
-import "react-loading-skeleton/dist/skeleton.css";
 const inter = Montserrat({
   subsets: ["latin"],
   variable: "--font-inter",

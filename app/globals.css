@@ -77,19 +77,6 @@
 
 
 
-@font-face {
-  font-family: "playfair";
-  src: url("../assets/fonts/booking_font.ttf") format("truetype");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Neue Montreal";
-  font-style: normal;
-  font-weight: 400 600 700;
-  src: url(https://www.upwork.com/static/fonts-global/4.5.1/neue-montreal-variable.woff2)
-    format("woff2");
-}
 
 * {
   text-decoration: none;
@@ -135,74 +122,4 @@ body {
   background-color: #fff;
   font-weight: 400;
   line-height: 1.2;
-  letter-spacing: 1px;
-}
-#reactSchedulerOutsideWrapper {
-  font-family: "Neue Montreal", sans-serif !important;
-}
-.hide {
-  overflow: hidden !important;
-}
-
-textarea {
-  border: 1px solid rgba(0, 0, 0, 0.2) !important;
-  padding: 0.6rem;
-  border-radius: 10px;
-}
-input {
-  border: none;
-  outline: none;
-}
-input::placeholder {
-  font-size: inherit;
-  font-weight: normal;
-  color: #000;
-}
-.input {
-  border: 1px solid rgba(0, 0, 0, 0.2) !important;
-  height: 55px;
-  padding: 0 1rem;
-  border-radius: 10px;
-}
-
-.btn {
-  transition: all 0.5s;
-  background: var(--green-1) !important;
-  cursor: pointer;
-}
-.btn:hover {
-  opacity: 0.7;
-}
-
-.btn.btn_2 {
-  transition: all 0.5s;
-  border: 2px solid var(--green-1) !important;
-  background-color: transparent;
-  color: #fff;
-}
-.btn.btn_2:hover {
-  background: var(--green-1) !important;
-}
-.hide {
-  overflow: hidden;
-}
-html.lenis,
-html.lenis body {
-  height: auto;
-}
-
-.lenis.lenis-smooth {
-  scroll-behavior: auto !important;
-}
-
-.lenis.lenis-smooth [data-lenis-prevent] {
-  overscroll-behavior: contain;
-}
-
-.lenis.lenis-stopped {
-  overflow: hidden;
-}
-
-.lenis.lenis-scrolling iframe {
-  pointer-events: none;
 }
